@@ -61,7 +61,7 @@ Now go to your browser and access your server’s IP address on port 8000:
 Restful APIs:
 - Swagger: http://localhost:8000/api/documentation
 
-SCREENSHOT
+<img src="./docs/images/Swagger.png" alt="Swagger" title="Swagger" width="400px">
 
 > **Note**
 > You need to register and then login to get a token to access the APIs.
@@ -70,7 +70,7 @@ SCREENSHOT
 GraphQL APIs:
 - GraphiQL: http://localhost:8000/graphiql
 
-SCREENSHOT
+<img src="./docs/images/GraphiQL.png" alt="GraphiQL" title="GraphiQL" width="400px">
 
 ### Testing
 Use the following command to run PHPUnit from the terminal:
