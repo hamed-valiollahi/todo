@@ -56,8 +56,7 @@ class TaskController extends BaseController
     public function index(Request $request): JsonResponse
     {
         $validator = Validator::make($request->input(), [
-            'category_id' => 'integer',
-            'sortbyDueDate' => 'boolean',
+            'category_id' => 'integer'
         ]);
     
         if($validator->fails()){

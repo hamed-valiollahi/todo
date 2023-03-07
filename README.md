@@ -76,7 +76,7 @@ GraphQL APIs:
 Use the following command to run PHPUnit from the terminal:
 
 ```bash
-$ docker-compose exec app php artisan test
+$ docker-compose exec app php artisan test /var/www/tests
 ```
 
 Example:
@@ -111,7 +111,7 @@ Here is some works needed to be done:
 - Implement repository pattern and update code & unit tests accordingly
 - Authentication for GraphQL APIs
 - Implement Authorization
-- Multi user tasks
+- Multiuser todo application
 
 ## Questions
 
