@@ -50,7 +50,7 @@ $ docker-compose exec app php artisan l5-swagger:generate
 And run the initial migrations and seeders.
 
 ```bash
-$ docker-compose exec app php artisan migrate:fresh —seed
+$ docker-compose exec app php artisan migrate:fresh --seed
 ```
 
 ### Step 4. Running
